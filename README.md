@@ -1,18 +1,8 @@
-# Lesson 3: static pages
-
-## create index page
+# Lesson 4: show static data
 
 ```bash
-ember g template index
+ember g controller index
 ```
 
-* add some static content to your `application` and `index` templates
-
-## create about page
-
-```bash
-ember g route about
-```
-
-* add some static content to your new `about` template. 
-* create a link to it
+* add an array of blog-post pojos as the `model` property
+* iterate over all models in the `index` template
