@@ -1,8 +1,7 @@
-# Lesson 4: show static data
+# Lesson 5: create blog-teaser component
 
 ```bash
-ember g controller index
+ember g component blog-teaser
 ```
 
-* add an array of blog-post pojos as the `model` property
-* iterate over all models in the `index` template
+* replace markup in `index` with our new reusable component
