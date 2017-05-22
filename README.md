@@ -1,7 +1,4 @@
-# Lesson 5: create blog-teaser component
+# Lesson 6: computed properties
 
-```bash
-ember g component blog-teaser
-```
-
-* replace markup in `index` with our new reusable component
+* create a computed property that truncates the long blo-post text to a shorter teaser text
+* use computed property macros to sort all blog-posts by date

@@ -1,5 +1,7 @@
 import Ember from 'ember';
 
+const { computed } = Ember;
+
 export default Ember.Controller.extend({
   
   model: [
@@ -15,5 +17,9 @@ export default Ember.Controller.extend({
       author: 'Simon Ihmig',
       date: new Date("2017-05-23T19:00:00")
     }
-  ]
+  ],
+
+  sortedModels: computed.sort('model', 'sortOrder'),
+
+  sortOrder: ['date:desc']
 });
