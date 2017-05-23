@@ -6,3 +6,9 @@
 {{#each model.comments as |comment|}}
   {{blog-comment comment=comment}}
 {{/each}}
+
+<hr>
+
+<h2>Neuer Kommentar</h2>
+
+{{comment-form submit=(action "createComment")}}

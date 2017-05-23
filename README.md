@@ -1,11 +1,15 @@
-# Lesson 8: comments
+# Lesson 10: create comments
 
 ```bash
-ember g model comment text:string author:string date:date blog-post:belongs-to:blog-post
-ember g component blog-comment
+ember g component comment-form
+ember g controller detail
 ```
 
-* show all comments on detail page
+* create a comment form component
+* when submit is pressed send an action to the controller
+* use the ember-data store to create a new comment record
 
 Links: 
-* https://guides.emberjs.com/v2.13.0/models/relationships/
+* https://guides.emberjs.com/v2.13.0/templates/input-helpers/
+* https://guides.emberjs.com/v2.13.0/templates/actions/
+* https://guides.emberjs.com/v2.13.0/models/creating-updating-and-deleting-records/
