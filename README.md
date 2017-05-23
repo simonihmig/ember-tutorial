@@ -1,4 +1,4 @@
-# Lesson 8: comments
+# Lesson 9: comments
 
 ```bash
 ember g model comment text:string author:string date:date blog-post:belongs-to:blog-post
