@@ -1,12 +1,11 @@
-# Lesson 8: detail page
+# Lesson 8: comments
 
 ```bash
-ember g route detail
+ember g model comment text:string author:string date:date blog-post:belongs-to:blog-post
+ember g component blog-comment
 ```
 
-* add a dynamic segment
-* add a detail link
-* show the blog-post given by the route
+* show all comments on detail page
 
 Links: 
-* https://guides.emberjs.com/v2.13.0/routing/specifying-a-routes-model/#toc_dynamic-models
+* https://guides.emberjs.com/v2.13.0/models/relationships/
