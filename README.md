@@ -16,3 +16,7 @@ ember g route about
 
 * add some static content to your new `about` template. 
 * create a link to it
+
+Links:
+* https://guides.emberjs.com/v2.13.0/templates/handlebars-basics/
+* https://guides.emberjs.com/v2.13.0/templates/links/
